@@ -7,7 +7,6 @@ body {
 
 nav {
     background: url("../images/buche-de-bois.png") 100% 100%;
-    filter: hue-rotate(90deg);
 }
 
 nav::after {
