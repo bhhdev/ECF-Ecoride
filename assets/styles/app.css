@@ -41,7 +41,7 @@ a.navbar-brand, .nav-item>a {
     color: white;
 }
 
-h2 {
+h2, p, h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
