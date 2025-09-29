@@ -7,7 +7,6 @@ body {
 
 nav {
     background: url("../images/buche-de-bois.png") 100% 100%;
-    filter: hue-rotate(90deg);
 }
 
 nav::after {
@@ -42,7 +41,7 @@ a.navbar-brand, .nav-item>a {
     color: white;
 }
 
-h2 {
+h2, p, h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
