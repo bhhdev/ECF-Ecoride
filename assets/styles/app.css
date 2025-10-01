@@ -1,0 +1,130 @@
+body {
+    background-color: #A4957C;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    padding-top: 129px;
+}
+
+nav {
+    background: url("../images/buche-de-bois.png") 100% 100%;
+}
+
+nav::after {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    inset: 0;
+    background-color: rgba(0,0,0,0.6);
+
+}
+
+
+
+nav>*, .navbar-toggler {
+    z-index: 20;
+}
+
+
+
+a.navbar-brand, .nav-item>a {
+    color: #CBBBA0;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #95C11F;
+}
+
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+
+h2, p, h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.title-ecoride {
+    height: 25vh;
+    width: 75vw;
+    display: flex;
+}
+
+.title-img {
+    height: 15vh;
+    width: 100%;
+}
+.ecoride-title-img {
+    height: 20vh;
+    width: 100%;
+}
+
+.img-paysage {
+    position: relative;
+    height: 548px;
+    width: 1181px;
+    background: url("../images/decors-image-presentation.svg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+/****  Car style ****/
+.img-car-wrapper {
+    position: absolute;
+    z-index: 10;
+    height: 132px;
+    width: 688px;
+    bottom: 120px;
+    transform: translateX(980px);
+}
+.car {
+    height: 132px;
+    width: 688px;
+}
+
+/****  Wheels style ****/
+.back-wheel,
+.front-wheel{
+    position: absolute;
+    z-index: 15;
+    height: 59px;
+    width: 59px;
+    bottom: 0rem;
+    /* animation */
+}
+.back-wheel {
+    left: 273px;
+}
+.front-wheel{
+    left: 40px;
+}
+
+/**** Dashed lines ****/
+.dashed-lines{
+    position: absolute;
+    z-index: 5;
+    bottom: 104px;
+    animation: dashedLinesAnim 5s linear forwards infinite;
+    transform: translateX(-1150px);
+    width: 200%;
+    height: 10px;
+}
+
+/**** Car Animation ****/
+.img-car-wrapper {
+    animation: carAnim 5s linear forwards infinite;
+}
+
+@keyframes carAnim {
+    to {
+        transform: translateX(-980px);
+    }
+}
+@keyframes dashedLinesAnim {
+    to {
+        transform: translateX(-4.5%);
+    }
+}
