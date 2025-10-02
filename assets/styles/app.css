@@ -41,9 +41,29 @@ a.navbar-brand, .nav-item>a {
     color: white;
 }
 
-h2, p, h1 {
+.search-button {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    bottom: 75%;
+    right: 83.5%;
+}
+
+.searchbar-content {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    bottom: 75%;
+    right: 8%;
+}
+
+h2, .les-depl {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+
+h2 {
+    margin-top: 8%;
 }
 
 
@@ -56,6 +76,10 @@ h2, p, h1 {
 .title-img {
     height: 15vh;
     width: 100%;
+}
+
+h1, .logiques-nomiques {
+    margin-top: 1%;
 }
 .ecoride-title-img {
     height: 20vh;
@@ -128,3 +152,59 @@ h2, p, h1 {
         transform: translateX(-4.5%);
     }
 }
+
+.credofferts-content {
+    margin-top: 2%;
+}
+
+.credits-offerts {
+    height: 156px;
+    width: 650px;
+    rotate: -7.5deg;
+}
+
+.text-pres {
+    height: 700px;
+    width: 1190px;
+    border: 3px solid black;
+    margin-top: 8%;
+}
+
+.first-text, .fiveth-text {
+    height: 100px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.text-bienv {
+    height: 100px;
+    width: 100%;
+}
+
+.prem-parag {
+    margin-top: 2%;
+}
+
+.second-text, .fourth-text {
+    height: 100px;
+    width: 80%;
+}
+
+.third-text {
+    height: 100px;
+    width: 65%;
+}
+
+.smiley-icon, .img-smiley-icon {
+    height: 121px;
+    width: 121px;
+}
+
+footer {
+    height: 106px;
+    width: 100%;
+    background: url("../images/buche-de-bois.png") 100% 100%;
+    margin-top: 3%;
+}
+
+
