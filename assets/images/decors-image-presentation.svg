@@ -32,6 +32,6 @@
 <path d="M0 296.895L32.2829 296.895H76.5955H115.078H167.553H209.534H238.687H317.983H351.215L1181 296.895V363.871H0V296.895Z" fill="#95C11F" fill-opacity="0.3"/>
 <path d="M1181 363.871H0V540H1181V363.871Z" fill="#666666"/>
 <path d="M1181 365.87V369.368H0V365.87H1181Z" fill="white"/>
-<path d="M1181 529.312V534.81H0V529.312H1181Z" fill="white"/>
+<path d="M1181 524V534.81H0V524H1181Z" fill="white"/>
 <rect width="1181" height="105" transform="translate(0 540)" fill="#95C11F" fill-opacity="0.6"/>
 </svg>
