@@ -101,7 +101,7 @@ h1, .logiques-nomiques {
     z-index: 10;
     height: 132px;
     width: 688px;
-    bottom: 120px;
+    bottom: 140px;
     transform: translateX(980px);
 }
 .car {
@@ -130,7 +130,7 @@ h1, .logiques-nomiques {
 .dashed-lines{
     position: absolute;
     z-index: 5;
-    bottom: 104px;
+    bottom: 124px;
     animation: dashedLinesAnim 5s linear forwards infinite;
     transform: translateX(-1150px);
     width: 200%;
@@ -151,6 +151,15 @@ h1, .logiques-nomiques {
     to {
         transform: translateX(-4.5%);
     }
+}
+
+.front-wheel, .back-wheel {
+    animation: rotate1 0.05s linear infinite;
+}
+
+@keyframes rotate1 {
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
 }
 
 .credofferts-content {
