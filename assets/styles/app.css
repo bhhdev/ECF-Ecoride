@@ -131,7 +131,7 @@ h1, .logiques-nomiques {
     position: absolute;
     z-index: 5;
     bottom: 124px;
-    animation: dashedLinesAnim 5s linear forwards infinite;
+    animation: dashedLinesAnim 3s linear forwards infinite;
     transform: translateX(-1150px);
     width: 200%;
     height: 10px;
