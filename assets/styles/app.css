@@ -3,6 +3,7 @@ body {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: bold;
     padding-top: 129px;
+    position: relative;
 }
 
 nav {
@@ -41,12 +42,21 @@ a.navbar-brand, .nav-item>a {
     color: white;
 }
 
+.search-wrapper {
+    position: fixed;
+    top: 194px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
 .search-button {
     content: "";
     position: absolute;
     z-index: 5;
     bottom: 75%;
     right: 83.5%;
+    /* margin-right: 20px; */
 }
 
 .searchbar-content {
@@ -54,7 +64,7 @@ a.navbar-brand, .nav-item>a {
     position: absolute;
     z-index: 5;
     bottom: 75%;
-    right: 8%;
+    right: 7.9%;
 }
 
 h2, .les-depl {
